@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .image-container {
+            margin: 10px;
+            text-align: center;
+        }
+        .image-container img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border: 3px solid #ddd;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+        .image-container img:hover {
+            transform: scale(1.1);
+        }
+        .image-container p {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Las imágenes se insertarán aquí -->
+    <div class="image-container">
+        <img src="https://raw.githubusercontent.com/Jaimote1/Uhayfrne/main/693e1dc%20%E2%80%8B.png" alt="Imagen 1">
+        <p>693e1dc.png</p>
+    </div>
+    <div class="image-container">
+        <img src="https://raw.githubusercontent.com/Jaimote1/Uhayfrne/main/1%20-%20bW2Qohz.png" alt="Imagen 2">
+        <p>1 - bW2Qohz.png</p>
+    </div>
+    <div class="image-container">
+        <img src="https://raw.githubusercontent.com/Jaimote1/Uhayfrne/main/10%20-%20SupobhY.png" alt="Imagen 3">
+        <p>10 - SupobhY.png</p>
+    </div>
+    <!-- Agrega más imágenes aquí siguiendo el mismo formato -->
+</body>
+</html>
